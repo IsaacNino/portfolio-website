@@ -44,7 +44,11 @@ a:visited {
 
 a:hover, a:focus {
     text-decoration: none;
-    color: #357b70;
+}
+
+.navigation-list__item:hover, 
+.navigation-list__item:focus {
+    color:#357b70;
 }
 
 a:active {
