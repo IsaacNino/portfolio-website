@@ -357,7 +357,7 @@ section {
 
 .type-writer {
     overflow: hidden;
-    border-right: .08em solid black;
+    border-right: .06em solid black;
     white-space: nowrap; 
     margin: 0 right;
     letter-spacing: .03em;
