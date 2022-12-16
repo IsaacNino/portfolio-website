@@ -463,7 +463,7 @@ section {
     margin: 0 right;
     letter-spacing: .03em;
     -webkit-animation:
-        typing .7s steps(40, end),
+        typing .9s steps(40, end),
         blink-caret .7s step-end infinite;
             animation:
         typing .9s steps(40, end),

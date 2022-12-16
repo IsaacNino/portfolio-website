@@ -362,6 +362,6 @@ section {
     margin: 0 right;
     letter-spacing: .03em;
     animation:
-        typing .7s steps(40, end),
+        typing .9s steps(40, end),
         blink-caret .75s step-end infinite;
 }
