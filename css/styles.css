@@ -173,26 +173,13 @@ button:focus,
     text-decoration: none;
 }
 
-/* my attempt to animate nav bar */
 
-
-
-/* end of attempt to animate nav bar */
 
 .about-section {
     max-width: 700;
     margin: auto;
     text-align: center;
 }
-
-/*.glass-effect {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 10px;
-    border: 10px solid rbga(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}*/
 
 .center-table {
     margin-left: auto;
@@ -220,7 +207,6 @@ th {
 }
 
 .grid__item {
-    background-color: none;
     padding: 10px 10px 10px 10px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
     position: relative;
@@ -283,7 +269,7 @@ textarea {
     display: inline-block;
     text-align: left;
     font-weight: 700;
-    width: 80%;
+    width: 70%;
 }
 
 section {
