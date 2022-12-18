@@ -62,7 +62,7 @@ p {
 
 button {
     border: none;
-    display: block;
+    display: inline-block;
     font-family: inherit;
     background-color: #357b70;
     color: white;
@@ -77,7 +77,7 @@ button {
 
 .cv-button {
     border: none;
-    display: block;
+    display: inline-block;
     font-family: inherit;
     background-color: #357b70;
     color: white;
@@ -92,7 +92,7 @@ button {
 
 .send-message {
     border: none;
-    display: block;
+    display: inline-block;
     font-family: inherit;
     background-color: #357b70;
     color: white;
@@ -141,7 +141,7 @@ button:focus,
     font-weight: 900;
 }
 
-.profile {
+.profile{
     max-width: 700px;
     margin: 0 auto;
 }
@@ -465,8 +465,8 @@ section {
     letter-spacing: .03em;
     -webkit-animation:
         typing .9s steps(40, end),
-        blink-caret .7s step-end infinite;
+        blink-caret .75s step-end infinite;
             animation:
         typing .9s steps(40, end),
-        blink-caret .7s step-end infinite;
+        blink-caret .75s step-end infinite;
 }
