@@ -270,7 +270,8 @@ textarea {
     display: inline-block;
     text-align: left;
     font-weight: 700;
-    width: 70%;
+    min-width: 60%;
+    max-width: 70%;
 }
 
 section {
