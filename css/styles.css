@@ -208,11 +208,19 @@ th {
 
 .grid__item {
     padding: 10px 10px 10px 10px;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
     position: relative;
     background: inherit;
+    /*background-color: #ebecf0;*/
     border-radius: 8px;
     overflow: hidden;
+    filter: blur(.2);
+}
+
+.grid__item:hover {
+    outline: none;
+    border-color:#fffafa;
+    box-shadow: 0 0 10px #fffafa;
 }
 
 /*.grid__item::before {
