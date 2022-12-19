@@ -137,6 +137,15 @@ button:focus,
     clear: both;
 }
 
+.social-link {
+    display: inherit;
+    transition: transform .2s;
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+}
+
 .footer-cta {
     font-weight: 900;
 }
@@ -248,12 +257,14 @@ th {
     border-radius: 8px;
     overflow: hidden;
     filter: blur(.2);
+    transition: transform .2s;
 }
 
 .grid__item:hover {
     outline: none;
     border-color:#fffafa;
     box-shadow: 0 0 10px #fffafa;
+    transform: scale(1.05);
 }
 
 /*.grid__item::before {
